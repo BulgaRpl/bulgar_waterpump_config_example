@@ -1,0 +1,2 @@
+# bulgar_waterpump_config_example
+bulgar_waterpump_config_example
