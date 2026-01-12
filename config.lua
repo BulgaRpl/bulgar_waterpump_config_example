@@ -37,6 +37,7 @@ Config.AddStatusPiss = 10 * 0.5 -- Piss setting if u drink Dirty Water for POS-M
 ---------------------------------------------------------------------------------------------
 
 -- Interaction Keys / Prompts
+Config.AlwaysShowPrompts = false -- If "false" player must hold "G" key to show prompts. / If "true" prompts will be always visible.
 Config.PressKey = 0x760A9C6F -- Key to press when you are near pump ( G )
 Config.FillCanteenKey = 0xCEFD9220 -- Key press to fill canteen ( E )
 Config.FillBottleKey = 0xE30CD707 -- Key press to fill bottle ( R )
