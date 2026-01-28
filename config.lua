@@ -65,6 +65,9 @@ Config.BucketProp = 'ITS CONFIGURED HERE AFTER U GET THE SCRIPT' -- Bucket Prop
 
 -- Item Settings
 Config.Canteen0 = "canteen_0" -- Empty canteen
+Config.Canteen25 = "canteen_25" -- 25% filled
+Config.Canteen50 = "canteen_50" -- 50% filled
+Config.Canteen75 = "canteen_75" -- 75% filled
 Config.Canteen100 = "canteen_100" -- Filled canteen
 Config.BottleEmpty = "bottle_empty" -- Empty bottle
 Config.BottleClearWater = "bottle_clearwater" -- Filled bottle
