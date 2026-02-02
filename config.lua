@@ -42,6 +42,7 @@ Config.PressKey = 0x760A9C6F -- Key to press when you are near pump ( G )
 Config.FillCanteenKey = 0xCEFD9220 -- Key press to fill canteen ( E )
 Config.FillBottleKey = 0xE30CD707 -- Key press to fill bottle ( R )
 Config.FillBucketKey = 0x07CE1E61 -- Key press to fill bucket ( MOUSE1 )
+Config.FillWateringCanKey = 0xDE794E3E -- Key press to fill Watering Can ( Q )
 Config.DrinkWaterKey = 0xF84FA74F -- Key press to drink water ( MOUSE2 )
 Config.WashKey = 0xCEE12B50 -- Key press to wash up ( MOUSE 3 )
 
@@ -49,6 +50,7 @@ Config.WashKey = 0xCEE12B50 -- Key press to wash up ( MOUSE 3 )
 Config.AllowFillCanteen = true -- Player can fill Canteen near pump
 Config.AllowFillBottle = true -- Player can fill Bottles near pump
 Config.AllowFillBucket = true -- Player can fill Buckets near pump
+Config.AllowFillWateringCan = true -- Player can fill Watering Can near pump
 Config.AllowDrinkFromPump = true -- Player can drink water from pump
 Config.AllowWashNearPump = true -- Player can wash up at the pump
 Config.WashNearPumpTestFunctions = false -- Turn this to true if somehow the dirt is not gone after u wash
@@ -62,6 +64,7 @@ Config.Objects = {
 Config.CanteenProp = 'ITS CONFIGURED HERE AFTER U GET THE SCRIPT' -- Canteen Prop
 Config.BottleProp = 'ITS CONFIGURED HERE AFTER U GET THE SCRIPT' -- Bottle Prop
 Config.BucketProp = 'ITS CONFIGURED HERE AFTER U GET THE SCRIPT' -- Bucket Prop
+Config.WateringCanProp = 'ITS CONFIGURED HERE AFTER U GET THE SCRIPT' -- Watering Can Prop
 
 -- Item Settings
 Config.Canteen0 = "canteen_0" -- Empty canteen
@@ -73,6 +76,8 @@ Config.BottleEmpty = "bottle_empty" -- Empty bottle
 Config.BottleClearWater = "bottle_clearwater" -- Filled bottle
 Config.BucketEmpty = "bucket_empty" -- Empty bucket
 Config.BucketWater = "bucket_filled" -- Filled bucket
+Config.WateringCanEmpty = "wateringcan_empty" -- Empty Watering Can
+Config.WateringCanWater = "wateringcan_filled" -- Filled Watering Can
 
 -- Translations
 Config.Language = { -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
