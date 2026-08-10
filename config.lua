@@ -27,11 +27,13 @@ Config.UseBLNMetabolism = false -- IF true u need to use BLN HUD/Metabolism Syst
 Config.UsePOSMetabolism = false -- IF true u need to use POS-Metabolism
 Config.UseCASMetabolism = false -- IF true u need to use CAS Metabolism System
 Config.UseSSMetabolism = false -- IF true u need to use SS-Metabolism System
+Config.UseDXSHud = false -- IF true u need to use DXS_Hud
+Config.UseCroweMetabolism = false  -- IF true u need to use crowe_metabolism
 
 -- Metabolism Settings ----------------------------------------------------------------------
 
 -- +100 Thirst if u drink from pump
--- Set this to 10 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism or POS-Metabolism or CAS Metabolism System or SS-Metabolism
+-- Set this to 10 if u use Fred/Outsider_Needs Metabolism Script or REDEMRPREBOOT/REDEMRP/RSGCore! or rsd_metabolism or fx-hud or Mega Metabolism or BLN HUD/Metabolism or POS-Metabolism or CAS Metabolism System or SS-Metabolism or DXS_Hud or crowe_metabolism
 Config.AddStatusThirst = 100
 Config.AddStatusPiss = 10 * 0.5 -- Piss setting if u drink Dirty Water for POS-Metabolism only
 
