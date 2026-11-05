@@ -52,6 +52,12 @@ Config.WashKey = 0xCEE12B50 -- Key press to wash up ( MOUSE 3 )
 -- Water Pump Settings
 Config.AllowFillCanteen = true -- Player can fill Canteen near pump
 Config.AllowFillBottle = true -- Player can fill Bottles near pump
+Config.MultiBottle = { -- Optional multiple bottle filling
+    Enabled = true,
+    MaxAmount = 20,
+    CancelEnabled = true,
+    CancelKey = 0x8CC9CD42
+}
 Config.AllowFillBucket = true -- Player can fill Buckets near pump
 Config.AllowFillWateringCan = true -- Player can fill Watering Can near pump
 Config.AllowDrinkFromPump = true -- Player can drink water from pump
@@ -84,23 +90,37 @@ Config.WateringCanWater = "wateringcan_filled" -- Filled Watering Can
 
 -- Translations
 Config.Language = { -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
-    [1] = {text = "EXAMPLE TRANSLATION",},
-    [2] = {text = "EXAMPLE TRANSLATION",},
-    [3] = {text = "EXAMPLE TRANSLATION",},
-    [4] = {text = "EXAMPLE TRANSLATION",},
-    [5] = {text = "EXAMPLE TRANSLATION",},
-    [6] = {text = "EXAMPLE TRANSLATION",},
-    [7] = {text = "EXAMPLE TRANSLATION",},
-    [8] = {text = "EXAMPLE TRANSLATION",},
-    [9] = {text = "EXAMPLE TRANSLATION",},
-    [10] = {text = "EXAMPLE TRANSLATION",},
-    [11] = {text = "EXAMPLE TRANSLATION",},
-    [12] = {text = "EXAMPLE TRANSLATION",},
-    [13] = {text = "EXAMPLE TRANSLATION",},
-    [14] = {text = "EXAMPLE TRANSLATION",},
-    [15] = {text = "EXAMPLE TRANSLATION",},
-    [16] = {text = "EXAMPLE TRANSLATION",},
-    [17] = {text = "EXAMPLE TRANSLATION",},
+    [1] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [2] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [3] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [4] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [5] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [6] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [7] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [8] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	--
+	--
+	--
+    [12] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [13] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [14] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [15] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [16] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [17] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+    [18] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[19] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[20] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[21] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[22] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[23] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[24] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[25] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[26] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[27] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[28] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[29] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[30] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
+	[31] = {text = "ITS CONFIGURED HERE AFTER U GET THE SCRIPT",},
 }
 
 -- Notifications
